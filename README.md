@@ -1,2 +1,2 @@
-# Random-Password-Generator
-It generates random passwords for use.
+# Random Password Generator
+Scrimba Random Password Generator Project 2.
