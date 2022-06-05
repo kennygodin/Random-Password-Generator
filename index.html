@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/passcodegen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b80430c514.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <section class="password-generator-section">
+      <section class="title-section">
+        <div class="title">
+          <h1>Generate a <span style="color: #55F991;">random password</span></h1>
+          <p>Never use an insecure password again.</p>
+        </div>
+      </section>
+      <section>
+        <div class="gen-button">
+          <button type="button" name="button" class="gen-btn"><i class="fa-solid fa-bolt"></i> Generate passwords</button>
+        </div> <hr>
+      </section>
+      <section class="passcode">
+        <div class="flex-container">
+          <div class="">
+            <input type="text" name="password1" value="password1" readonly>
+          </div>
+          <div class="">
+            <input type="text" name="password2" value="password2" readonly>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="">
+            <input type="text" name="password3" value="password3" readonly>
+          </div>
+          <div class="">
+            <input type="text" name="password4" value="password4" readonly>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+<script src="js/codepassgen.js"></script>
+  </body>
+</html>
